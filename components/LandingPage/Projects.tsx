@@ -12,23 +12,41 @@ const Projects = () => {
       featured: true,
     },
     {
-  title: "ReviewBuddy – AI Code Reviewer",
-  description:
-    "An AI-driven full-stack web application that performs automated code reviews by identifying bugs, anti-patterns, performance issues, and best-practice violations. The system also computes time & space complexity and generates optimized production-ready code using LLM integration. Designed with a VS Code-like Monaco editor for a seamless developer experience.",
-  link: "https://review-buddy-frontend.onrender.com/",
-  tech: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "Express.js",
-    "OpenRouter (LLM API)",
-    "Monaco Editor",
-    "AI Integration",
-    "RESTful APIs",
-    "Full-Stack Architecture"
-  ],
-},
+      title: "ReviewBuddy – AI Code Reviewer",
+      description:
+        "An AI-driven full-stack web application that performs automated code reviews by identifying bugs, anti-patterns, performance issues, and best-practice violations. The system also computes time & space complexity and generates optimized production-ready code using LLM integration. Designed with a VS Code-like Monaco editor for a seamless developer experience.",
+      link: "https://review-buddy-frontend.onrender.com/",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "OpenRouter (LLM API)",
+        "AI Integration",
+        "RESTful APIs",
+        "Full-Stack Architecture",
+      ],
+    },
+    {
+      title: "HireReach – Cold Email Automation Platform",
+      description:
+        "A full-stack MERN platform that automates cold outreach for job applications. Users can upload HR contact lists via CSV/Excel, create personalized email campaigns, and send emails directly through their Gmail App Password. Implemented secure JWT authentication, campaign management dashboard, background email worker for automated sending, and a responsive Next.js interface deployed on Vercel with a Node.js backend on Render.",
+      link: "https://hire-reach-web.vercel.app/",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Nodemailer",
+        "JWT Authentication",
+        "REST API",
+        "Full-Stack MERN",
+      ],
+      featured: true,
+    },
     {
       title: "Expense Tracker",
       description:
@@ -95,7 +113,6 @@ const Projects = () => {
               </svg>
             </a>
 
-            {/* Resume Button */}
             <a
               href="/sandeep_resume.pdf"
               download
