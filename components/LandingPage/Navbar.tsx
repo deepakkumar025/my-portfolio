@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="fixed w-full shadow-md z-50 bg-slate-900 text-white">
       <div className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
         <Link href="/" className="text-3xl sm:text-4xl font-bold text-blue-400">
-          Sandeep Yadav
+          Deepak Kumar Prasad
         </Link>
 
         <div className="hidden md:flex space-x-12 text-xl font-semibold">

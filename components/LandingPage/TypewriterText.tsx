@@ -8,8 +8,9 @@ function TypewriterText() {
           <Typewriter
             options={{
               strings: [
-                'Hi, I’m Sandeep Kumar.',
-                'Full Stack Developer – MERN',
+                'Hi, I’m Deepak Kumar Prasad.',
+                'Frontend Developer',
+                ' Learning Cybersecurity 🔐',
                 'CSE Student 🎓',
                 'DSA Proficient',
               ],
