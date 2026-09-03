@@ -50,7 +50,7 @@ const Home = () => {
         <div className="w-full lg:w-1/2 flex justify-center order-1 lg:order-2">
           <div className="relative">
             <Image
-              src="img.jpg"
+              src="/img.jpg"
               alt="Deepak Kumar Prasad"
               width={320}
               height={320}
