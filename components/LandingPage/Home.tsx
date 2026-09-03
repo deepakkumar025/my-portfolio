@@ -1,5 +1,6 @@
 import TypewriterText from "./TypewriterText";
 import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -48,10 +49,11 @@ const Home = () => {
 
         <div className="w-full lg:w-1/2 flex justify-center order-1 lg:order-2">
           <div className="relative">
-            {/* Replace <img> with Next.js Image component for performance */}
-            <img
+            <Image
               src="img.jpg"
               alt="Deepak Kumar Prasad"
+              width={320}
+              height={320}
               className="rounded-full w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 object-cover border-4 border-blue-100 shadow-lg hover:shadow-xl transition-shadow duration-300"
             />
             <div className="absolute inset-0 rounded-full border-4 border-transparent animate-pulse opacity-10 pointer-events-none" />

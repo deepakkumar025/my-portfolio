@@ -1,4 +1,5 @@
-import { Contact } from "lucide-react";
+import Contact from "@/components/LandingPage/Contact";
+
 export default function ContactPage() {
   return <Contact />;
 }
