@@ -34,7 +34,6 @@ const Navbar = () => {
           <Link href="/" className="hover:text-blue-400 transition">Home</Link>
           <Link href="/about" className="hover:text-blue-400 transition">About</Link>
           <Link href="/skills" className="hover:text-blue-400 transition">Skills</Link>
-          <Link href="/projects" className="hover:text-blue-400 transition">Projects</Link>
           <Link href="/#contact" className="hover:text-blue-400 transition">Contact</Link>
         </div>
 
@@ -63,7 +62,6 @@ const Navbar = () => {
         <Link href="/" className="block hover:text-blue-400" onClick={() => setMenuOpen(false)}>Home</Link>
         <Link href="/about" className="block hover:text-blue-400" onClick={() => setMenuOpen(false)}>About</Link>
         <Link href="/skills" className="block hover:text-blue-400" onClick={() => setMenuOpen(false)}>Skills</Link>
-        <Link href="/projects" className="block hover:text-blue-400" onClick={() => setMenuOpen(false)}>Projects</Link>
         <Link href="/#contact" className="block hover:text-blue-400" onClick={() => setMenuOpen(false)}>Contact</Link>
       </div>
     </nav>

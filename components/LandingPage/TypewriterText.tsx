@@ -12,7 +12,6 @@ function TypewriterText() {
                 'Frontend Developer',
                 ' Learning Cybersecurity 🔐',
                 'CSE Student 🎓',
-                'DSA Proficient',
               ],
               autoStart: true,
               loop: true,

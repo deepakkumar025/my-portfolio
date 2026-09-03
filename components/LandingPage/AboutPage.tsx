@@ -21,10 +21,10 @@ const AboutPage = () => {
           </h2>
           <div className="space-y-5 text-white text-lg sm:text-xl leading-relaxed">
             <p>
-              I&apos;m a passionate <span className="font-semibold text-cyan-700">MERN Stack Developer</span> who loves building dynamic, scalable, and user-friendly web applications. With experience in <span className="font-semibold text-cyan-700">MongoDB, Express.js, React, and Node.js</span>, I enjoy creating both intuitive frontends and powerful backends.
+              I&apos;m a passionate <span className="font-semibold text-cyan-700">Frontend Developer</span> who loves building responsive, accessible, and user-friendly web interfaces with modern technologies such as <span className="font-semibold text-cyan-700">React, Next.js, and Tailwind CSS</span>.
             </p>
             <p>
-              From designing RESTful APIs to crafting seamless UIs, I thrive on solving complex challenges and delivering high-performance solutions. I follow best practices to write clean, maintainable code and ensure scalability.
+              I enjoy turning ideas into polished experiences and continuously improving my skills in frontend architecture, performance, and accessibility. I am also currently learning cybersecurity fundamentals and web security.
             </p>
             <p>
               Beyond coding, I enjoy exploring new tools, contributing to open-source, and sharing knowledge with the developer community. My focus is to keep growing, innovating, and making an impact through technology.
@@ -63,11 +63,10 @@ const AboutPage = () => {
               </h3>
             </div>
             <p className="text-white text-base sm:text-lg leading-relaxed">
-              To design and develop full-stack applications that not only solve
-              real-world problems but also deliver exceptional user experiences.
-              My mission is to keep innovating, building scalable solutions, and
-              contributing to meaningful projects while continuously growing as
-              a developer.
+              To create thoughtful frontend experiences that are fast,
+              accessible, and useful. I am growing as a developer by building
+              with modern web technologies and learning how to make interfaces
+              more secure.
             </p>
           </div>
         </motion.div>

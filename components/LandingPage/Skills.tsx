@@ -8,39 +8,25 @@ const Skills = () => {
 
   const skills = [
     {
-      title: "MERN",
+      title: "Frontend Stack",
       items: [
         "HTML5, CSS3, JavaScript (ES6+)",
         "React.js, Next.js",
-        "Node.js, Express.js",
-        "MongoDB",
         "Tailwind CSS, Bootstrap",
-        "REST APIs & Fetching Data",
+        "Responsive and accessible UI design",
+        "REST APIs and data fetching",
+        "Git, GitHub, and modern frontend tooling",
       ],
       color: "amber",
     },
     {
-      title: "DSA",
+      title: "Currently Learning",
       items: [
-        "Strong Problem Solving",
-        "Proficient in C++, JavaScript",
-        "LeetCode, GFG, Code Chef ,Code Forces",
-        "Data Structures: Arrays, Trees, Graphs",
-        "Algorithms: DP, Backtracking",
+        "Cybersecurity fundamentals",
+        "Web security and ethical hacking concepts",
+        "Secure frontend development practices",
       ],
       color: "blue",
-    },
-    {
-      title: "Tools & Workflow",
-      items: [
-        "Git & GitHub",
-        "VS Code, Chrome DevTools",
-        "NPM, Vite, Webpack (basics)",
-        "CI/CD, Debugging Tools",
-        "Render, Netlify",
-        "API testing: Postman, Thunderclient"
-      ],
-      color: "green",
     },
   ];
 
@@ -72,7 +58,7 @@ const Skills = () => {
           My Skills
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-5xl">
           {skills.map((skill, idx) => {
             const colors = colorMap[skill.color];
 

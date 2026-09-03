@@ -6,7 +6,6 @@ import Skills from "@/components/LandingPage/Skills";
 import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "../components/ui/stars-background";
 import Contact from "@/components/LandingPage/Contact";
-import Projects from "@/components/LandingPage/Projects";
 export default function Home() {
   return (
     <>
@@ -17,7 +16,6 @@ export default function Home() {
       
       <AboutPage />
       <Skills />
-      <Projects/>
       <Contact/>
       
     </>
